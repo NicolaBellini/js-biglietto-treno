@@ -8,7 +8,7 @@ let total = (trip * price);
 
 roundedPrice = total.toFixed(2)
 
-// roundedPrice = Math.round((total * 100) / 100);
+roundedPrice = Math.round((total * 100) / 100);
 
 if(age < 18){
   roundedPrice = ((roundedPrice * 0.80).toFixed(2));
@@ -26,5 +26,4 @@ document.getElementById("output").innerHTML += roundedPrice +"\u20AC"
 console.log(roundedPrice);
 
 
-console.log("ciao");
 
