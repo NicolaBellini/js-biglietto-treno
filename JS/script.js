@@ -1,6 +1,6 @@
-const trip= 300 //prompt
+const trip= parseInt(prompt("Inserire il numero di chilometri da percorrere")) //prompt
 
-const age= 44
+const age= parseInt(prompt("Inserire l' età")) 
 
 const price= 0.21
 
@@ -19,7 +19,7 @@ if(age < 18){
   total
 }
 
-document.getElementById("output").innerHTML += roundedPrice
+document.getElementById("output").innerHTML += roundedPrice +"\u20AC"
 
 
 
